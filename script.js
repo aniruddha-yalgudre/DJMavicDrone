@@ -153,7 +153,7 @@ ScrollTrigger.create({
 
   trigger: "#page11 canvas",
   // pin: true,
-  markers:true,
+  // markers:true,
   scroller: `#main`,
 //   set start end according to preference
   start: `top 0`,
@@ -223,7 +223,7 @@ var tl = gsap.timeline({
      trigger:'#page12',
      start:"top top" ,
      end:"bottom 100%",
-     markers:true,
+     // markers:true,
      pin:true,
      scrub:2
     },
@@ -241,7 +241,6 @@ var tl = gsap.timeline({
      start:"top bottom",
      start:"0.99% 0" ,
      end:"10% 50%",
-     markers:true,
      pin:true,
      scrub:2,
      },
